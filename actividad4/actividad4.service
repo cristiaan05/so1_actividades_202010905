@@ -1,0 +1,8 @@
+[Unit]
+Description=Print Hello and Date
+After=network.target
+[Service]
+ExecStart=/usr/local/bin/actividad4.sh
+Restart=always
+[Install]
+WantedBy=multi-user.target
