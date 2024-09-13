@@ -72,7 +72,9 @@ int main() {
 
 
 ## Pregunta 3: ¿Cuántos procesos y hilos son creados?
+1. *Un total de 6 procesos son creados. Esto incluye el proceso original y los procesos hijos generados por las tres llamadas a fork().*
 
+2. *Solo se crea 1 hilo único en el proceso hijo original.*
 ### Código:
 
 ```c
@@ -116,3 +118,4 @@ int main() {
     return 0;
 }
 
+![](./images/procesos.png)
